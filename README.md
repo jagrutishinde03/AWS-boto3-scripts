@@ -47,18 +47,24 @@ export AWS_DEFAULT_REGION='your-default-region'
 Scripts for interacting with DynamoDB, including creating tables, inserting items, querying, and deleting tables.
 
 - `create_table.py`: Script to create a DynamoDB table.
-- `insert_item.py`: Script to insert an item into a DynamoDB table.
-- `query_table.py`: Script to query items from a DynamoDB table.
+- `delete_item.py`: Script to delete an item from a DynamoDB table.
 - `delete_table.py`: Script to delete a DynamoDB table.
+- `describe_table.py`: Script to describe a DynamoDB table.
+- `get_item.py`: Script to get an item from a DynamoDB table.
+- `put_item.py`: Script to insert an item into a DynamoDB table.
+- `query.py`: Script to query items from a DynamoDB table.
+- `scan.py`: Script to scan items in a DynamoDB table.
+- `update_item.py`: Script to update an item in a DynamoDB table.
 
 ### RDS
 
 Scripts for managing RDS instances, such as creating, describing, modifying, and deleting instances.
 
-- `create_rds_instance.py`: Script to create an RDS instance.
-- `describe_rds_instance.py`: Script to describe an RDS instance.
-- `modify_rds_instance.py`: Script to modify an RDS instance.
-- `delete_rds_instance.py`: Script to delete an RDS instance.
+- `create_rds.py`: Script to create an RDS instance.
+- `db_snapshot.py`: Script to create a snapshot of an RDS instance.
+- `delete_db.py`: Script to delete an RDS instance.
+- `describe_log.py`: Script to describe logs for an RDS instance.
+- `modify.py`: Script to modify an RDS instance.
 
 ### EC2
 
@@ -76,7 +82,8 @@ Scripts for interacting with S3, such as creating buckets, uploading files, list
 - `create_bucket.py`: Script to create an S3 bucket.
 - `upload_file.py`: Script to upload a file to an S3 bucket.
 - `list_buckets.py`: Script to list all S3 buckets.
-- `delete_object.py`: Script to delete an object from an S3 bucket.
+- `delete_object.py`: Script to delete an object from S3 bucket.
+- `delete_bucket.py`: Script to delete an bucket from S3.
 
 ## Configuration
 
@@ -85,3 +92,7 @@ Ensure your AWS credentials and region are configured before running the scripts
 ## Contributing
 
 Contributions are welcome! Please fork this repository and submit pull requests with your changes. Make sure to follow the existing code style and include detailed commit messages.
+
+## License
+
+This project is licensed under the MIT License. 
